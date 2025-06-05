@@ -1,0 +1,666 @@
+{
+  "councillor": {
+    "Council Procedures and Governance": [
+      {
+        "id": 1,
+        "question": "What is the mandatory training requirement for newly elected councillors in most UK councils?",
+        "options": [
+          "Training must be completed within 2 months of taking office",
+          "Training must be completed within 4 months of taking office",
+          "Training must be completed within 6 months of taking office",
+          "No mandatory training is required"
+        ],
+        "correct": 1,
+        "category": "Training Requirements",
+        "explanation": "Most UK councils require newly elected councillors to complete induction training within 4 months of taking their oath of office, covering areas like finance, safeguarding, equality and diversity, and the code of conduct."
+      },
+      {
+        "id": 2,
+        "question": "Which of these is typically included in mandatory councillor training?",
+        "options": [
+          "Advanced project management techniques",
+          "Safeguarding and code of conduct",
+          "Foreign language proficiency",
+          "Advanced IT certification"
+        ],
+        "correct": 1,
+        "category": "Training Requirements",
+        "explanation": "Mandatory councillor training typically covers essential areas including safeguarding, code of conduct, finance, and equality and diversity to ensure councillors can fulfill their legal and ethical responsibilities."
+      },
+      {
+        "id": 3,
+        "question": "What is the average time commitment for councillors per week according to recent surveys?",
+        "options": [
+          "10 hours per week",
+          "22 hours per week",
+          "35 hours per week",
+          "40 hours per week"
+        ],
+        "correct": 1,
+        "category": "Time Commitment",
+        "explanation": "Recent LGA surveys indicate that councillors spend an average of 22 hours per week on council business, though this varies significantly based on roles and responsibilities."
+      },
+      {
+        "id": 4,
+        "question": "What is the minimum age requirement to stand as a councillor in the UK?",
+        "options": [
+          "16 years old",
+          "18 years old",
+          "21 years old",
+          "25 years old"
+        ],
+        "correct": 1,
+        "category": "Eligibility",
+        "explanation": "You must be at least 18 years old on the day of nomination to stand as a councillor in the UK."
+      },
+      {
+        "id": 5,
+        "question": "Which of these would disqualify someone from becoming a councillor?",
+        "options": [
+          "Being unemployed",
+          "Having no previous political experience",
+          "Working for the same council they wish to represent",
+          "Being under 25 years old"
+        ],
+        "correct": 2,
+        "category": "Eligibility",
+        "explanation": "You cannot be a councillor if you work for the council you want to represent, though you can work for another local authority as long as you're not in a politically restricted post."
+      },
+      {
+        "id": 6,
+        "question": "What is the typical council term length in the UK?",
+        "options": [
+          "2 years",
+          "3 years",
+          "4 years",
+          "5 years"
+        ],
+        "correct": 2,
+        "category": "Terms of Office",
+        "explanation": "Council terms are typically 4 years, though some councils elect a third of their councillors each year with a fourth year without elections."
+      },
+      {
+        "id": 7,
+        "question": "What happens if a councillor fails to complete mandatory training?",
+        "options": [
+          "They receive a warning",
+          "Their allowance may be withheld",
+          "They are automatically re-elected",
+          "Nothing happens"
+        ],
+        "correct": 1,
+        "category": "Training Requirements",
+        "explanation": "Failure to complete mandatory training or make the required declaration may result in the councillor allowance being withheld until the requirements are met."
+      },
+      {
+        "id": 8,
+        "question": "How many registered electors are typically needed to nominate a council candidate?",
+        "options": [
+          "5 electors",
+          "10 electors",
+          "15 electors",
+          "20 electors"
+        ],
+        "correct": 1,
+        "category": "Election Process",
+        "explanation": "You typically need the signatures of 10 registered electors from the ward you wish to stand in to nominate as a council candidate."
+      },
+      {
+        "id": 9,
+        "question": "What is the main role of council overview and scrutiny committees?",
+        "options": [
+          "To make executive decisions",
+          "To review and challenge decisions made by the cabinet",
+          "To manage day-to-day council operations",
+          "To handle complaints from residents"
+        ],
+        "correct": 1,
+        "category": "Council Structure",
+        "explanation": "Overview and scrutiny committees review decisions and policies, challenge the executive, and help ensure continuous improvement in council services."
+      },
+      {
+        "id": 10,
+        "question": "Which citizenship status allows someone to stand as a councillor in the UK?",
+        "options": [
+          "UK citizens only",
+          "UK and EU citizens only",
+          "UK, Commonwealth, and qualifying EU citizens",
+          "Anyone living in the UK for 5+ years"
+        ],
+        "correct": 2,
+        "category": "Eligibility",
+        "explanation": "You can stand as a councillor if you're a British citizen, Commonwealth citizen, or qualifying EU citizen (though EU rules have changed post-Brexit)."
+      },
+      {
+        "id": 11,
+        "question": "What is the purpose of the councillor code of conduct?",
+        "options": [
+          "To set salary levels",
+          "To establish ethical standards and behavior expectations",
+          "To determine meeting schedules",
+          "To assign committee memberships"
+        ],
+        "correct": 1,
+        "category": "Ethics and Conduct",
+        "explanation": "The code of conduct sets out the ethical standards and behavioral expectations that councillors must adhere to when carrying out their duties."
+      },
+      {
+        "id": 12,
+        "question": "When must councillors declare personal interests?",
+        "options": [
+          "Only at the start of their term",
+          "Once per year",
+          "When relevant matters arise in meetings",
+          "Only if asked directly"
+        ],
+        "correct": 2,
+        "category": "Ethics and Conduct",
+        "explanation": "Councillors must declare personal and pecuniary interests when relevant matters arise in meetings or decision-making processes to ensure transparency and avoid conflicts of interest."
+      },
+      {
+        "id": 13,
+        "question": "What percentage of councillors are estimated to spend 10 hours or fewer per week on council business?",
+        "options": [
+          "10%",
+          "20%",
+          "30%",
+          "40%"
+        ],
+        "correct": 1,
+        "category": "Time Commitment",
+        "explanation": "According to LGA research, approximately 20% of councillors spend 10 hours or fewer per week on council business, showing the flexibility of the role."
+      },
+      {
+        "id": 14,
+        "question": "What is the primary funding source for most UK councils?",
+        "options": [
+          "Council tax makes up 75% of funding",
+          "Central government grants provide the majority of funding",
+          "Business rates are the main source",
+          "Service charges fund most operations"
+        ],
+        "correct": 1,
+        "category": "Local Government Finance",
+        "explanation": "Central government grants and business rates provide the majority of council funding, with council tax typically making up only about a quarter of a council's budget."
+      },
+      {
+        "id": 15,
+        "question": "Which of these best describes the role of a council leader?",
+        "options": [
+          "They are directly elected by residents",
+          "They are chosen by councillors and lead the executive",
+          "They serve a ceremonial role only",
+          "They are appointed by central government"
+        ],
+        "correct": 1,
+        "category": "Council Structure",
+        "explanation": "The council leader is typically chosen by councillors from the majority party and leads the executive/cabinet, setting policy direction and representing the council publicly."
+      },
+      {
+        "id": 16,
+        "question": "What is the difference between a portfolio holder and a backbench councillor?",
+        "options": [
+          "Portfolio holders are elected differently",
+          "Portfolio holders have executive responsibilities for specific service areas",
+          "Portfolio holders serve longer terms",
+          "There is no difference"
+        ],
+        "correct": 1,
+        "category": "Council Structure",
+        "explanation": "Portfolio holders (cabinet members) have executive responsibility for specific service areas and make key decisions, while backbench councillors focus on representation, scrutiny, and constituency work."
+      },
+      {
+        "id": 17,
+        "question": "How often do full council meetings typically take place?",
+        "options": [
+          "Weekly",
+          "Monthly",
+          "Every 6-8 weeks",
+          "Quarterly"
+        ],
+        "correct": 2,
+        "category": "Meeting Procedures",
+        "explanation": "Full council meetings typically take place every 6-8 weeks, though the frequency can vary between councils and some may meet monthly or quarterly."
+      },
+      {
+        "id": 18,
+        "question": "What is the purpose of council ward boundaries?",
+        "options": [
+          "To determine council tax rates",
+          "To ensure equal representation and define electoral areas",
+          "To allocate council budgets",
+          "To assign council staff"
+        ],
+        "correct": 1,
+        "category": "Electoral Geography",
+        "explanation": "Ward boundaries define electoral areas to ensure roughly equal representation, with each ward electing one or more councillors to represent that geographical area."
+      },
+      {
+        "id": 19,
+        "question": "What happens if a councillor misses meetings for six consecutive months?",
+        "options": [
+          "They receive a warning",
+          "They automatically cease to be a councillor",
+          "Their allowance is reduced",
+          "Nothing happens"
+        ],
+        "correct": 1,
+        "category": "Attendance Requirements",
+        "explanation": "If a councillor fails to attend meetings for six consecutive months without council approval, they automatically cease to be a councillor under the Local Government Act."
+      },
+      {
+        "id": 20,
+        "question": "Which of these services are councils typically responsible for?",
+        "options": [
+          "NHS hospitals",
+          "National defense",
+          "Housing, planning, and waste collection",
+          "Immigration control"
+        ],
+        "correct": 2,
+        "category": "Council Services",
+        "explanation": "Councils are responsible for local services including housing, planning applications, waste collection, local roads, libraries, parks, and social services."
+      }
+    ],
+    "Community Leadership and Engagement": [
+      {
+        "id": 21,
+        "question": "What is meant by 'community leadership' in the councillor role?",
+        "options": [
+          "Telling residents what to do",
+          "Facilitating collaboration and representing community interests",
+          "Making all decisions independently",
+          "Focusing only on party politics"
+        ],
+        "correct": 1,
+        "category": "Leadership",
+        "explanation": "Community leadership involves facilitating collaboration between different groups, representing community interests, and helping to shape a vision for the local area."
+      },
+      {
+        "id": 22,
+        "question": "What is the most effective way for councillors to engage with hard-to-reach groups?",
+        "options": [
+          "Send more leaflets",
+          "Use traditional council meetings only",
+          "Go to where communities gather and use diverse communication methods",
+          "Rely on other councillors to represent them"
+        ],
+        "correct": 2,
+        "category": "Community Engagement",
+        "explanation": "Effective engagement with hard-to-reach groups requires going to where communities gather, using diverse communication methods, and adapting approaches to meet different needs."
+      },
+      {
+        "id": 23,
+        "question": "How has digital technology changed councillor-citizen engagement?",
+        "options": [
+          "It has made engagement unnecessary",
+          "It provides new channels for real-time communication but requires digital skills",
+          "It has replaced all traditional methods",
+          "It only benefits younger residents"
+        ],
+        "correct": 1,
+        "category": "Digital Engagement",
+        "explanation": "Digital technology provides new opportunities for real-time engagement with broader audiences, but councillors need digital skills and must be aware of both opportunities and risks."
+      },
+      {
+        "id": 24,
+        "question": "What is 'casework' in the context of being a councillor?",
+        "options": [
+          "Legal work for the council",
+          "Helping individual residents with problems and issues",
+          "Filing council documents",
+          "Writing policy papers"
+        ],
+        "correct": 1,
+        "category": "Casework",
+        "explanation": "Casework involves helping individual residents with problems and concerns, such as housing issues, planning problems, or accessing council services."
+      },
+      {
+        "id": 25,
+        "question": "How should councillors handle confidential information?",
+        "options": [
+          "Share it with close friends only",
+          "Discuss it on social media",
+          "Keep it strictly confidential according to the code of conduct",
+          "Share it with local media"
+        ],
+        "correct": 2,
+        "category": "Confidentiality",
+        "explanation": "Councillors must keep confidential information strictly confidential and not disclose it inappropriately, as outlined in the councillor code of conduct."
+      }
+    ]
+  },
+  "campaignManager": {
+    "Campaign Strategy and Planning": [
+      {
+        "id": 101,
+        "question": "What are the three fundamental resources in any political campaign?",
+        "options": [
+          "Money, media, and messaging",
+          "Time, money, and people",
+          "Voters, volunteers, and venues",
+          "Data, technology, and advertising"
+        ],
+        "correct": 1,
+        "category": "Campaign Resources",
+        "explanation": "Every political campaign has three basic resources: time, money, and people. These can be combined in various ways to achieve campaign objectives."
+      },
+      {
+        "id": 102,
+        "question": "What is the 'golden rule' of political campaigning?",
+        "options": [
+          "Spend the most money to win",
+          "All campaigns must repeatedly communicate a persuasive message to people who will vote",
+          "Attack opponents at every opportunity",
+          "Focus only on traditional supporters"
+        ],
+        "correct": 1,
+        "category": "Campaign Strategy",
+        "explanation": "The golden rule states that all campaigns must repeatedly communicate a persuasive message to people who will vote - this is the fundamental principle of political communication."
+      },
+      {
+        "id": 103,
+        "question": "What percentage of the UK electorate are active social media users according to recent data?",
+        "options": [
+          "Over 60%",
+          "Over 70%",
+          "Over 80%",
+          "Over 90%"
+        ],
+        "correct": 2,
+        "category": "Digital Campaigning",
+        "explanation": "Over 80% of the UK electorate are active social media users, making digital advertising and online engagement essential components of modern political campaigns."
+      },
+      {
+        "id": 104,
+        "question": "What is voter targeting in campaign strategy?",
+        "options": [
+          "Trying to reach every voter equally",
+          "Focusing campaign efforts on specific groups most likely to support your candidate",
+          "Only campaigning in wealthy areas",
+          "Avoiding certain demographic groups"
+        ],
+        "correct": 1,
+        "category": "Targeting",
+        "explanation": "Voter targeting involves identifying and focusing campaign efforts on specific groups of voters who are most likely to be persuaded to support your candidate, making efficient use of campaign resources."
+      },
+      {
+        "id": 105,
+        "question": "In the 2024 UK General Election, what was the biggest change in digital campaigning?",
+        "options": [
+          "Complete elimination of social media use",
+          "Introduction of digital imprints for transparency",
+          "Ban on all online advertising",
+          "Requirement for government approval of all posts"
+        ],
+        "correct": 1,
+        "category": "Digital Regulation",
+        "explanation": "The 2024 UK General Election introduced digital imprints requirements to increase transparency in digital campaigning, requiring clear identification of who paid for digital political advertisements."
+      },
+      {
+        "id": 106,
+        "question": "What is the purpose of campaign polling?",
+        "options": [
+          "To prove you're winning",
+          "To gather strategic information for campaign planning and message testing",
+          "To impress journalists",
+          "To discourage opponents"
+        ],
+        "correct": 1,
+        "category": "Research",
+        "explanation": "Campaign polling provides strategic information for campaign planning, helps test messages before committing resources, and identifies which voter groups to target."
+      },
+      {
+        "id": 107,
+        "question": "Which social media platform saw the highest increase in political advertising spend in recent UK elections?",
+        "options": [
+          "Twitter/X",
+          "Instagram",
+          "Connected TV (CTV)",
+          "LinkedIn"
+        ],
+        "correct": 2,
+        "category": "Digital Advertising",
+        "explanation": "Connected TV (CTV) spending increased by 1,500% in the 2022 US midterms, and similar trends are seen in UK elections as audiences shift to streaming platforms."
+      },
+      {
+        "id": 108,
+        "question": "What is 'earned media' in campaigning?",
+        "options": [
+          "Paid advertisements",
+          "Free publicity and news coverage",
+          "Social media posts",
+          "Campaign literature"
+        ],
+        "correct": 1,
+        "category": "Media Strategy",
+        "explanation": "Earned media refers to free publicity and news coverage that campaigns generate through newsworthy activities, press releases, and media relations."
+      },
+      {
+        "id": 109,
+        "question": "How has Meta (Facebook/Instagram) changed political content distribution?",
+        "options": [
+          "Increased political content in feeds",
+          "Banned all political content",
+          "Reduced political content visibility unless users specifically follow political accounts",
+          "Made all political content free"
+        ],
+        "correct": 2,
+        "category": "Platform Changes",
+        "explanation": "Meta has reduced the amount of political content shown to users unless they specifically choose to follow political accounts, making organic reach more challenging for campaigns."
+      },
+      {
+        "id": 110,
+        "question": "What is the most effective method for persuading undecided voters?",
+        "options": [
+          "Mass advertising only",
+          "Direct voter contact combined with multiple message touchpoints",
+          "Social media posts only",
+          "Ignoring them until election day"
+        ],
+        "correct": 1,
+        "category": "Voter Persuasion",
+        "explanation": "The most effective approach combines direct voter contact (door-to-door, phone calls) with multiple message touchpoints (mail, digital ads, earned media) to reach voters through different channels."
+      },
+      {
+        "id": 111,
+        "question": "What is GOTV in campaign terminology?",
+        "options": [
+          "Getting On TV",
+          "Get Out The Vote",
+          "Great Online TV",
+          "Government Official Television"
+        ],
+        "correct": 1,
+        "category": "GOTV",
+        "explanation": "GOTV (Get Out The Vote) refers to efforts to ensure that identified supporters actually vote on election day, typically through reminders, transportation, and encouragement."
+      },
+      {
+        "id": 112,
+        "question": "Which type of content performs best on social media for political campaigns?",
+        "options": [
+          "Long text posts",
+          "Video content with subtitles",
+          "Photos without text",
+          "Links to external websites"
+        ],
+        "correct": 1,
+        "category": "Content Strategy",
+        "explanation": "Video content with subtitles performs best on social media as it's engaging, accessible (many users watch without sound), and more likely to be shared and remembered."
+      },
+      {
+        "id": 113,
+        "question": "What is opposition research in campaigning?",
+        "options": [
+          "Spying on opponents illegally",
+          "Researching opponents' public records and positions to understand their strengths and weaknesses",
+          "Spreading false information",
+          "Hacking opponents' communications"
+        ],
+        "correct": 1,
+        "category": "Research",
+        "explanation": "Opposition research involves legally researching opponents' public records, voting history, statements, and positions to understand their profile and prepare for contrasts and potential attacks."
+      },
+      {
+        "id": 114,
+        "question": "What is the difference between persuasion and mobilization in campaigns?",
+        "options": [
+          "There is no difference",
+          "Persuasion targets undecided voters; mobilization encourages supporters to vote",
+          "Persuasion is for local campaigns; mobilization is for national campaigns",
+          "Persuasion uses media; mobilization uses volunteers"
+        ],
+        "correct": 1,
+        "category": "Campaign Strategy",
+        "explanation": "Persuasion targets undecided voters to change their preference, while mobilization focuses on encouraging existing supporters to actually turn out and vote."
+      },
+      {
+        "id": 115,
+        "question": "What is the primary purpose of campaign message testing?",
+        "options": [
+          "To impress donors",
+          "To determine which messages resonate most with target voters before spending resources",
+          "To copy opponents' messages",
+          "To satisfy legal requirements"
+        ],
+        "correct": 1,
+        "category": "Message Development",
+        "explanation": "Message testing helps determine which messages resonate most effectively with target voters before committing significant campaign resources to promoting those messages."
+      }
+    ],
+    "Digital Campaigning and Technology": [
+      {
+        "id": 116,
+        "question": "What are digital imprints in UK political advertising?",
+        "options": [
+          "Digital fingerprints for security",
+          "Required labels identifying who paid for digital political ads",
+          "Encrypted campaign messages",
+          "Digital voter registration systems"
+        ],
+        "correct": 1,
+        "category": "Digital Regulation",
+        "explanation": "Digital imprints are required labels on digital political advertisements that identify who promoted and paid for the content, introduced to increase transparency in digital campaigning."
+      },
+      {
+        "id": 117,
+        "question": "Which platform was used by political parties for the first time in the 2024 UK General Election?",
+        "options": [
+          "Facebook",
+          "Instagram",
+          "TikTok",
+          "LinkedIn"
+        ],
+        "correct": 2,
+        "category": "Platform Usage",
+        "explanation": "TikTok was used by major political parties for the first time during the 2024 UK General Election campaign, representing the expansion into newer social media platforms."
+      },
+      {
+        "id": 118,
+        "question": "What is programmatic advertising in political campaigns?",
+        "options": [
+          "Manually placing each advertisement",
+          "Automated, data-driven ad buying that targets specific audiences",
+          "Only using government-approved platforms",
+          "Advertising only on traditional media"
+        ],
+        "correct": 1,
+        "category": "Digital Advertising",
+        "explanation": "Programmatic advertising uses automated, data-driven systems to buy and place digital advertisements, allowing for precise targeting of specific audience segments."
+      },
+      {
+        "id": 119,
+        "question": "Why did political party social media posting decrease in 2024 compared to 2019?",
+        "options": [
+          "Legal restrictions",
+          "Reduced organic reach and platform algorithm changes",
+          "Lack of content",
+          "Budget constraints"
+        ],
+        "correct": 1,
+        "category": "Platform Changes",
+        "explanation": "Political party posting decreased partly due to reduced organic reach as platforms like Meta reduced political content visibility, making parties focus more on paid advertising and direct engagement."
+      },
+      {
+        "id": 120,
+        "question": "What is the most important principle for political social media content?",
+        "options": [
+          "Post as frequently as possible",
+          "Use complex political terminology",
+          "Create content that elicits emotion and action (HUPA: Humor, Urgency, Pride, Action)",
+          "Only share official party statements"
+        ],
+        "correct": 2,
+        "category": "Content Strategy",
+        "explanation": "Effective political social media content follows HUPA principles - creating content that elicits Humor, Urgency, Pride, or Action to engage audiences and encourage sharing."
+      }
+    ],
+    "Electoral Law and Compliance": [
+      {
+        "id": 121,
+        "question": "What is the purpose of campaign spending limits?",
+        "options": [
+          "To reduce the quality of campaigns",
+          "To ensure fair competition and prevent excessive influence of money",
+          "To help wealthy candidates",
+          "To simplify accounting"
+        ],
+        "correct": 1,
+        "category": "Campaign Finance",
+        "explanation": "Campaign spending limits are designed to ensure fair competition by preventing candidates or parties from gaining unfair advantages through unlimited spending, promoting democratic equality."
+      },
+      {
+        "id": 122,
+        "question": "When must campaign materials include an imprint?",
+        "options": [
+          "Only on printed materials",
+          "Only on digital advertisements",
+          "On all campaign materials including digital content",
+          "Only on materials costing over £100"
+        ],
+        "correct": 2,
+        "category": "Legal Requirements",
+        "explanation": "Campaign imprints are required on all campaign materials, both printed and digital, to ensure transparency about who is promoting the content and who paid for it."
+      },
+      {
+        "id": 123,
+        "question": "What information must be included in a campaign imprint?",
+        "options": [
+          "Only the candidate's name",
+          "The promoter and agent's name and address",
+          "Only the party name",
+          "Just a phone number"
+        ],
+        "correct": 1,
+        "category": "Legal Requirements",
+        "explanation": "Campaign imprints must include the name and address of both the promoter (person promoting the material) and the agent (person responsible for campaign expenses)."
+      },
+      {
+        "id": 124,
+        "question": "During which period are campaign spending limits typically in effect?",
+        "options": [
+          "Throughout the entire electoral term",
+          "Only on election day",
+          "During the regulated campaign period before the election",
+          "Only during the candidate nomination period"
+        ],
+        "correct": 2,
+        "category": "Campaign Finance",
+        "explanation": "Campaign spending limits are in effect during the regulated campaign period, which varies by election type but typically covers the formal campaign period before polling day."
+      },
+      {
+        "id": 125,
+        "question": "What are the consequences of violating campaign finance rules?",
+        "options": [
+          "Just a warning",
+          "Fines, prosecution, and potential disqualification from office",
+          "Reduced campaign funding",
+          "No consequences"
+        ],
+        "correct": 1,
+        "category": "Legal Compliance",
+        "explanation": "Violating campaign finance rules can result in fines, criminal prosecution, and in serious cases, disqualification from office or having election results overturned."
+      }
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetElected Training Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Home Screen -->
+    <div id="home-screen" class="screen active">
+        <div class="home-container">
+            <div class="home-content">
+                <div class="hero-section">
+                    <h1 class="hero-title">GetElected Training Academy</h1>
+                    <p class="hero-description">
+                        Master UK politics with interactive learning designed for aspiring councillors and campaign professionals
+                    </p>
+                    
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">📚</div>
+                            <div class="feature-content">
+                                <h3>Learn</h3>
+                                <p>Current knowledge</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🎯</div>
+                            <div class="feature-content">
+                                <h3>Practice</h3>
+                                <p>Interactive quizzes</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">🏆</div>
+                            <div class="feature-content">
+                                <h3>Excel</h3>
+                                <p>Track progress</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mentor-note">
+                        <div class="mentor-note-header">
+                            <span class="mentor-icon">⭐</span>
+                            <span class="mentor-title">Want Better Results?</span>
+                        </div>
+                        <p class="mentor-description">
+                            For accelerated learning and improvement, consider working with one of our experienced political mentors who can provide personalized guidance and insights.
+                        </p>
+                    </div>
+                </div>
+                
+                <button id="start-journey-btn" class="start-journey-btn">
+                    Start Your Political Journey
+                    <span class="arrow-icon">→</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories Screen -->
+    <div id="categories-screen" class="screen">
+        <div class="container">
+            <div class="header-card">
+                <button id="back-to-home" class="back-btn">
+                    <span class="back-icon">←</span>
+                    Back to Home
+                </button>
+                <h2 class="page-title">Choose Your Learning Path</h2>
+                <p class="page-description">Select the role that best matches your political aspirations and start your focused training journey</p>
+            </div>
+
+            <div class="user-types-grid">
+                <!-- Councillor Card -->
+                <div class="user-type-card" data-type="councillor">
+                    <div class="card-header">
+                        <div class="icon-container blue-bg">
+                            <span class="icon">👥</span>
+                        </div>
+                        <div class="title-section">
+                            <h3 class="card-title">Aspiring Councillor</h3>
+                            <p class="card-subtitle"><span id="councillor-count">25</span> questions available</p>
+                        </div>
+                    </div>
+                    <p class="card-description">Master local government, community leadership, and council procedures. Learn about mandatory training requirements, governance structures, and effective community engagement.</p>
+                    
+                    <div class="topics-section">
+                        <h4 class="topics-title">Topic Areas:</h4>
+                        <div class="topics-list" id="councillor-topics">
+                            <!-- Topics will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <div class="actions-section">
+                        <button class="primary-btn" data-type="councillor" data-topic="">
+                            Start Mixed Topic Quiz (20 Questions)
+                            <span class="arrow-icon">→</span>
+                        </button>
+                        <div class="topic-buttons" id="councillor-topic-buttons">
+                            <!-- Topic-specific buttons will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Campaign Manager Card -->
+                <div class="user-type-card" data-type="campaignManager">
+                    <div class="card-header">
+                        <div class="icon-container green-bg">
+                            <span class="icon">💼</span>
+                        </div>
+                        <div class="title-section">
+                            <h3 class="card-title">Campaign Manager</h3>
+                            <p class="card-subtitle"><span id="campaign-manager-count">25</span> questions available</p>
+                        </div>
+                    </div>
+                    <p class="card-description">Understand modern campaign strategy, digital campaigning, electoral law, and compliance. Learn about targeting, messaging, and the latest developments in political advertising.</p>
+                    
+                    <div class="topics-section">
+                        <h4 class="topics-title">Topic Areas:</h4>
+                        <div class="topics-list" id="campaign-manager-topics">
+                            <!-- Topics will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <div class="actions-section">
+                        <button class="primary-btn" data-type="campaignManager" data-topic="">
+                            Start Mixed Topic Quiz (20 Questions)
+                            <span class="arrow-icon">→</span>
+                        </button>
+                        <div class="topic-buttons" id="campaign-manager-topic-buttons">
+                            <!-- Topic-specific buttons will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quiz-screen" class="screen">
+        <div class="container">
+            <div class="quiz-header">
+                <div class="quiz-nav">
+                    <button id="back-to-categories" class="back-btn">
+                        <span class="back-icon">←</span>
+                        Back to Categories
+                    </button>
+                    <div class="question-counter">
+                        Question <span id="current-question-num">1</span> of <span id="total-questions">20</span>
+                    </div>
+                </div>
+                
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+
+                <div class="quiz-meta">
+                    <div class="quiz-info">
+                        <span class="category-badge" id="question-category">Mixed Topics</span>
+                        <div class="score-indicator">
+                            <span class="score-icon">📈</span>
+                            <span id="current-score">0</span>% correct
+                        </div>
+                    </div>
+                    <h3 class="question-text" id="question-text">Loading question...</h3>
+                </div>
+            </div>
+
+            <div class="quiz-content">
+                <div class="answers-section" id="answers-section">
+                    <!-- Answer options will be populated by JavaScript -->
+                </div>
+
+                <div class="explanation-section" id="explanation-section" style="display: none;">
+                    <div class="explanation-content">
+                        <h4 class="explanation-header" id="explanation-header">✓ Correct!</h4>
+                        <p class="explanation-text" id="explanation-text"></p>
+                    </div>
+                </div>
+
+                <div class="quiz-actions">
+                    <button id="submit-answer" class="submit-btn" disabled>Submit Answer</button>
+                    <button id="next-question" class="next-btn" style="display: none;">Next Question →</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="results-screen" class="screen">
+        <div class="container">
+            <div class="results-content">
+                <div class="results-icon" id="results-icon">🏆</div>
+                <h2 class="results-title" id="results-title">Excellent Work!</h2>
+                <p class="results-subtitle" id="results-subtitle">You have a strong understanding of UK politics</p>
+
+                <div class="score-display">
+                    <div class="final-score" id="final-score">20/20</div>
+                    <div class="percentage-score" id="percentage-score">100% Correct</div>
+                    
+                    <div class="quiz-details">
+                        <span id="quiz-topic">Mixed Topics</span>
+                        <span>•</span>
+                        <span id="quiz-user-type">Aspiring Councillor</span>
+                    </div>
+                    
+                    <div class="score-bar">
+                        <div class="score-fill" id="score-fill"></div>
+                    </div>
+                </div>
+
+                <div class="performance-stats">
+                    <div class="stat-card blue">
+                        <div class="stat-number" id="questions-answered">20</div>
+                        <div class="stat-label">Questions Answered</div>
+                    </div>
+                    <div class="stat-card green">
+                        <div class="stat-number" id="correct-answers">20</div>
+                        <div class="stat-label">Correct Answers</div>
+                    </div>
+                    <div class="stat-card purple">
+                        <div class="stat-number" id="success-rate">100%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                </div>
+
+                <div class="mentor-suggestion" id="mentor-suggestion" style="display: none;">
+                    <div class="mentor-suggestion-header">
+                        <span class="mentor-icon">⭐</span>
+                        <span class="mentor-title">Consider Professional Guidance</span>
+                    </div>
+                    <p class="mentor-description">
+                        To accelerate your progress and improve your results, working with one of our political mentors could provide valuable insights and personalized learning strategies.
+                    </p>
+                </div>
+
+                <div class="results-actions">
+                    <button id="try-again" class="action-btn primary">
+                        <span class="btn-icon">🔄</span>
+                        Try Again
+                    </button>
+                    <button id="choose-new-path" class="action-btn secondary">
+                        <span class="btn-icon">🏠</span>
+                        Choose New Path
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="screen">
+        <div class="loading-content">
+            <div class="spinner"></div>
+            <p>Loading questions...</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                <span class="footer-brand">GetElected Training Academy</span> - Empowering the next generation of political leaders
+            </div>
+            <div class="footer-copyright">
+                © 2025 <span class="footer-brand">GETELECTED LTD</span>. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+                
